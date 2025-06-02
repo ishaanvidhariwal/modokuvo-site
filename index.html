@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ModoKuvo | AI-Powered Interior Design</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ddd;
+    }
+    .hero {
+      padding: 100px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #222, #333);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin-top: 15px;
+    }
+    .button {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #ff6b00;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #fff;
+    }
+    .section h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .feature {
+      max-width: 250px;
+      background: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #111;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ModoKuvo</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Design Smarter. Live Beautifully.</h2>
+    <p>ModoKuvo uses AI to instantly redesign your space with shoppable furniture tailored to your taste and budget.</p>
+    <button class="button" onclick="alert('Coming Soon!')">Get Early Access</button>
+  </section>
+
+  <section class="section" id="about">
+    <h3>What is ModoKuvo?</h3>
+    <p>ModoKuvo is a next-gen AI platform that transforms photos of your rooms into beautifully designed interiors. Choose your style, set a budget, and receive instant, shoppable design options in seconds.</p>
+  </section>
+
+  <section class="section" id="features">
+    <h3>Features</h3>
+    <div class="features">
+      <div class="feature">
+        <h4>AI-Powered Designs</h4>
+        <p>Real-time, personalized interiors based on your space and style.</p>
+      </div>
+      <div class="feature">
+        <h4>One-Click Shopping</h4>
+        <p>Buy everything you see — furniture, decor, and layout — in a tap.</p>
+      </div>
+      <div class="feature">
+        <h4>Augmented Reality</h4>
+        <p>Visualize your new room before buying with in-app AR previews.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Get in Touch</h3>
+    <form onsubmit="submitForm(event)">
+      <label>Your Name</label>
+      <input type="text" placeholder="Name" required/>
+      <label>Email</label>
+      <input type="email" placeholder="Email" required/>
+      <label>Message</label>
+      <textarea rows="4" placeholder="How can we help?" required></textarea>
+      <button type="submit" class="button">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ModoKuvo. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function submitForm(e) {
+      e.preventDefault();
+      alert("Thank you! We'll get back to you soon.");
+    }
+  </script>
+
+</body>
+</html>
